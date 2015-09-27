@@ -1,0 +1,10 @@
+# Site settings
+title: Linux, Simplified
+description: A collection of tips, documentation, and snippets for people migrating from Mac or Windows to Linux on the desktop
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://bnvk.github.io/linux-simplified" # the base hostname & protocol for your site
+twitter_username: brennannovak
+github_username:  bnvk
+
+# Build settings
+markdown: kramdown

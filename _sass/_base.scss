@@ -36,11 +36,21 @@ ul, ol, dl, figure,
 }
 
 
+strong {
+    font-weight: bold;
+}
+
+em {
+  color: #444444
+}
+
 hr {
   border-width: 1px;
   border-color: #999999;
   color: #999999;
   height: 1px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 
@@ -73,6 +83,12 @@ figcaption {
 ul, ol {
     margin-left: $spacing-unit;
 }
+
+ul li p,
+ol li p {
+    margin-bottom: .25em;
+}
+
 
 li {
     > ul,

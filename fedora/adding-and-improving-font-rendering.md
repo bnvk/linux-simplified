@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: Improve Font Rendering
-permalink: /fedora/improve-font-rendering/
+title: Adding & Improving Font Rendering
+permalink: /fedora/adding-and-improving-font-rendering/
 distribution: fedora
 version: 21
 ---
@@ -20,11 +20,9 @@ Install Freetype-Freeworld package from RpmFusion. This is a font rendering engi
 sudo yum install freetype-freeworld
 ```
 
-#### 3. Install MS Fonts
+#### 3. Install Microsoft, MacOS or Custom Fonts
 
-There are many common fonts like Arial that aren’t distributed in Fedora for policy reason.
-
-Go grub them from SourceForge
+There are many common windows fonts like Arial that aren’t distributed in Fedora for policy reason. You can get them from SourceForge
 
     http://sourceforge.net/projects/corefonts/files/the%20fonts/final/
 

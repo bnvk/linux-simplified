@@ -2,48 +2,55 @@
 layout: default
 ---
 
+**Linux, Simplified** is a collection of tips & guides for beginner - intermediate level tasks that someone new to desktop Linux (or a new distro) might struggle with. Familiarity with the command line is required.
 
+---
 
-### Fedora
-
-Tips and guides for the [Fedora](https://fedora.org) distribution
+## Fedora
 
 {% for page in site.pages %}
-  {% if page.title and page.distribution == "fedora" %}
+  {% if page.title and page.distribution == "fedora" and page.title != "Fedora" %}
   - <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endif %}
 {% endfor %}
+  - Help add more...
+
+
+Popular distros built on top of [Fedora](https://fedora.org) are [Red Hat Enterprise](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CentOS](https://www.centos.org), and [Oracle Linux](http://www.oracle.com/us/technologies/linux/overview/index.html)
+
 ---
 
 
-### Debian
-
-Tips and guides for the [Debian](https://debian.org) distribution
+## Debian
 
 {% for page in site.pages %}
-  {% if page.title and page.distribution == "debian" %}
+  {% if page.title and page.distribution == "debian" and page.title != "Debian" %}
   - <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endif %}
 {% endfor %}
+  - Help add more...
+
+Popular distros built on top of [Debian](htttps://debian.org) are: [Ubuntu](http://www.ubuntu.com), [Mint](http://linuxmint.com), and [Elementary OS](https://elementary.io)
+
 ---
 
 ### Arch
 
-*Tips and guides for the Arch distribution need to be written...*
+*You should help add guides & tips for [Arch](https://www.archlinux.org) Linux...*
 
 ---
 
 
 ### Gentoo
 
-*Tips and guides for the [Gentoo](https://www.gentoo.org) distribution need to be written...*
+*You should help add guides & tips for [Gentoo](https://www.gentoo.org) Linux...*
 
 ---
 
 
 ### openSUSE
 
-*Tips and guides for the [openSUSE](https://www.opensuse.org) distribution need to be written...*
+*You should help add guides & tips for [openSUSE](https://www.opensuse.org) Linux...*
 
 ---
 
@@ -53,6 +60,3 @@ Tips and guides for the [Debian](https://debian.org) distribution
 *Tips and guides for the [Slackware](http://www.slackware.com) distribution need to be written...*
 
 ---
-
-
-*The content of this site is constantly changing, this is a rough pass at structure. This should probably be redone to use Jeykll data values and this is all likely to change, sooner than later :)*

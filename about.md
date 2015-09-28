@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is a rough overview of what I am setting out to accomplish with this repo / project. I would love feedback and help making it be better. Hopefully it is of help to others.
+This is a rough overview of what I am setting out to accomplish with this website / project. I would love feedback and help adding content and making it be better. If interesting just [fork & send pull requests](https://github.com/bnvk/linux-simplified) Hopefully it is of help to others.
 
 ## Simple Problems
 
@@ -86,6 +86,6 @@ Here are those five goals in further detail with more concrete courses of action
 
 ---
 
-The above is a rough first pass of what this sort of thing together *might* look like. This outline is based on my first hand experience of migrating from the cozy land of MacOS to Linux and difficulties encountered along the way. Ideal documentation would be as thorough & robust as a well written blog post. The goal being that overall this collection will be more well organized and cumulatively helpful than these things scattered all around the web.
+The above is a first pass of what this *might* look like and the outline is based on my personal experiences migrating from the cozy land of MacOS to jungle of Linux and the difficulties I've encountered along the way. Ideal documentation is as thorough & robust as a well written blog post. The goal being that overall this collection will be more well organized and cumulatively helpful than these things scattered all around the web and on help sites.
 
 [See existing docs & tips](/)

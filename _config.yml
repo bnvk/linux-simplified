@@ -1,7 +1,7 @@
 # Site settings
 title: Linux, Simplified
 description: A collection of tips, documentation, and snippets for people migrating from Mac or Windows to Linux on the desktop
-baseurl: "/linux-simplified/"
+baseurl: "/linux-simplified"
 url: "https://bnvk.github.io/"
 twitter_username: brennannovak
 github_username:  bnvk
